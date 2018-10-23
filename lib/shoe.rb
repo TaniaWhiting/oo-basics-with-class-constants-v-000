@@ -9,6 +9,8 @@ class Shoe
     BRANDS. each do |brand_name|
       if brand_name == brand ! 
          BRANDS << brand
+      end
+    end
   end
 
   def cobble
